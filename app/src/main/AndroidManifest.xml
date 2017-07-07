@@ -10,6 +10,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<!--suppress ALL -->
 <manifest package="com.example.android.pets"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -37,6 +38,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".CatalogActivity" />
         </activity>
+
+        <provider
+            android:name=".data.PetProvider"
+            android:authorities="com.example.android.pets"
+            android:exported="false"/>
+
     </application>
 
 </manifest>
