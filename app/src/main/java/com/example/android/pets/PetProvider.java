@@ -8,7 +8,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 /**
- * Created by yodgorbekkomilov on 7/7/17.
+ * Created by yodgorbekkomilov on 7/7/17. 
  */
 
 public class PetProvider extends ContentProvider {
